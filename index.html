@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>
+			Floyd-Warshall All-Pairs Shortest Path
+		</title>
+		
+		<!-- css sheet for how the page is laid out -->
+		
+		<link rel="stylesheet" href="./css/pageStyle.css">
+			
+			
+		<!-- jqueury stuff.  Only used for the animation speed slider. -->
+		<link rel="stylesheet" href="./css/jquery-ui-1.8.11.custom.css">
+				
+		<script src="./js/jquery-1.5.2.min.js"></script>
+		<script src="./js/jquery-ui-1.8.11.custom.min.js"></script>
+				
+		<!-- Javascript for the actual visualization code -->
+	 
+	 	<script type = "text/javascript" src = "./js/CustomEvents.js"> </script>
+		<script type = "text/javascript" src = "./js/UndoFunctions.js"> </script>
+		<script type = "text/javascript" src = "./js/AnimatedObject.js"> </script>
+		<script type = "text/javascript" src = "./js/AnimatedLabel.js"> </script>
+		<script type = "text/javascript" src = "./js/AnimatedCircle.js"> </script>
+		<script type = "text/javascript" src = "./js/AnimatedRectangle.js"> </script>
+		<script type = "text/javascript" src = "./js/AnimatedLinkedList.js"> </script>
+		<script type = "text/javascript" src = "./js/HighlightCircle.js"> </script>
+		<script type = "text/javascript" src = "./js/Line.js"> </script>  
+		<script type = "text/javascript" src = "./js/ObjectManager.js"> </script>
+		<script type = "text/javascript" src = "./js/AnimationMain.js"> </script>  
+		<script type = "text/javascript" src = "./js/Algorithm.js"> </script>
+		<script type = "text/javascript" src = "./js/Graph.js"> </script>
+		<script type = "text/javascript" src = "./js/Floyd.js"> </script> 
+				
+			
+	 </head> 
+	
+	<body onload="init();" class="VisualizationMainPage">
+		
+		<div id = "container">
+		 <div id="logoheader" align="center">
+			
+			
+			<div  id = "mainContent"> 
+				
+				<div id = "algoControlSection">
+					 
+					<table id="AlgorithmSpecificControls"> </table> 
+				</div>
+				
+				 
+									
+				<canvas id="canvas" width="1000" height="500"></canvas>
+				
+				<div id = "generalAnimationControlSection" style = "display:block">
+					 
+
+					<table id="GeneralAnimationControls">  </table>		
+				</div>
+				
+			</div>  
+			
+		 
+
+		</div> 
+	</body>
+</html>
